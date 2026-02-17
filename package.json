@@ -1,0 +1,36 @@
+{
+  "name": "fiverr-backend-exercise",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fiverr coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.0",
+    "supertest": "^7.0.0",
+    "@types/supertest": "^6.0.2"
+  }
+}
